@@ -51,3 +51,5 @@ func (StatementPrinter) Print(invoice Invoice, plays map[string]Play) (string, e
 	result += fmt.Sprintf("You earned %d credits\n", volumeCredits)
 	return result, nil
 }
+
+// add place for new development :D
